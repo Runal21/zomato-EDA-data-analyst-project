@@ -1,40 +1,41 @@
-# Final Conclusions from Zomato Restaurants EDA
+# Zomato EDA (Exploratory Data Analysis)  
 
-**✅ Restaurant Chains:**
+## 📌 Project Overview  
+This project performs an Exploratory Data Analysis (EDA) on Zomato dataset to uncover insights about restaurants, ratings, cuisines, and locations. The goal is to analyze customer preferences and trends in the food industry.  
 
-Around 35% of restaurants in India belong to a chain.
-Domino’s Pizza, Cafe Coffee Day, and KFC have the highest number of outlets.
-Barbecue and Grill food chains have the highest average ratings compared to other restaurant types.
+## 🔧 Technologies Used  
+- Python 🐍  
+- Pandas & NumPy for data manipulation  
+- Matplotlib & Seaborn for visualization  
+- Jupyter Notebook for analysis  
 
----
-**✅ Establishment Types:**
+## 📂 Dataset  
+The dataset contains information on restaurants, cuisines, ratings, and locations from Zomato.  
 
-Quick Bites and Casual Dining are the most common restaurant types.
-Restaurants serving alcohol tend to have higher ratings, more votes, and more photo uploads.
+## 📊 Analysis Conducted  
+- Data Cleaning & Preprocessing  
+- Understanding Restaurant Ratings & Trends  
+- Popular Cuisines & Price Ranges  
+- Geographic Distribution of Restaurants  
 
----
-**✅ City-Wise Insights:**
+## 🚀 How to Run  
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/zomato-eda.git
+   ```
+2. Install required libraries  
+   ```bash
+   pip install pandas numpy matplotlib seaborn jupyter
+   ```
+3. Open the Jupyter Notebook  
+   ```bash
+   jupyter notebook EDA_Zomaato.ipynb
+   ```  
 
-Bangalore has the most number of restaurants.
-Gurgaon has the highest-rated restaurants (average rating: 3.83).
-Hyderabad receives the most reviews (votes), while Mumbai and New Delhi lead in photo uploads per outlet.
+## 📌 Key Insights  
+- High-rated restaurants tend to be in premium locations  
+- Certain cuisines have consistently high demand  
+- Pricing strategies vary by location  
 
----
-**✅ Cuisine Preferences:**
-
-Chinese cuisine is the second most preferred cuisine after North Indian.
-International cuisines tend to receive higher ratings than local cuisines.
-Features like Gastro Pubs, Romantic Dining, and Craft Beer are highly rated by customers.
-
----
-**✅ Rating and Cost Analysis:**
-
-Most restaurants have ratings between 3.0 and 4.0.
-Budget-friendly restaurants (₹250 - ₹800 for two) dominate the dataset.
-Few restaurants exist in the high-price range.
-Higher-cost restaurants tend to receive better ratings.
-
----
-**📌 Final Takeaway:**
-
-Customers value unique dining experiences (alcohol, rooftop, live music) and are willing to pay more for quality food and ambiance.
+## 📜 License  
+This project is open-source and available under the MIT License.  
